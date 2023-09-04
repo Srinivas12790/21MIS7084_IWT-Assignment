@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          div{
+           
+           color: black;
+           text-align: center;
+       
+           padding: 10px;
+        
+           border: 2px solid white;
+           border-color: none;
+           display:grid;
+           padding: 25px;
+      
+       }
+       .con{
+        display: grid;
+        grid:100%;
+        border: 2px solid white;
+        grid-template-areas: "a a a a a a a a a a a a a a"
+                             "b b b b b c c c c c c c c c"
+                             "b b b b b c c c c c c c c c"
+                             "b b b b b c c c c c c c c c"
+                             "b b b b b c c c c c c c c c"
+                             "b b b b b c c c c c c c c c"
+                             "b b b b b d d d e e e f f f"
+                             "b b b b b d d d e e e f f f"
+                             "b b b b b d d d e e e f f f"
+                             "b b b b b d d d e e e f f f"
+                             "b b b b b g g g g g g g g g"
+                             "b b b b b g g g g g g g g g"
+                             "b b b b b g g g g g g g g g";
+       }
+       .a{
+        background-color: aquamarine;
+        grid-area: a;
+
+       }
+       .b{
+        background-color: rgb(3, 229, 229);
+        grid-area: b;
+
+       }
+       .c{
+        background-color: rgb(4, 211, 226);
+        grid-area: c;
+
+       }
+       .d{
+        background-color: rgb(35, 240, 172);
+        grid-area: d;
+
+       }
+       .e{
+        background-color: aquamarine;
+        grid-area: e;
+
+       }
+       .f{
+        background-color: rgb(5, 206, 139);
+        grid-area: f;
+
+       }
+       .g{
+        background-color: rgb(60, 213, 162);
+        grid-area: g;
+
+       }
+    </style>
+</head>
+<body>
+<div class="con">
+    <div class="a" >NAVBAR</div>
+    <div class="b" >SIDEBAR</div>
+    <div class="c" >MAIN</div>
+    <div class="d">CONTENT1</div>
+    <div class="e">CONTENT2</div>
+    <div class="f">CONTENT3</div>
+    <div class="g">FOOTER</div>
+    </div>
+</body>
+</html>
