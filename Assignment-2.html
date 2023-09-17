@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>task two</title>
+  <style>
+    body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .image-row {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    gap: 2px; 
+    padding: 20px;
+  }
+  
+  img {
+    max-width: 350px;
+    height: 350px; 
+    flex-basis: calc(33.33% - 20px); 
+  }
+  
+  @media only screen and  (max-width:500px) {
+    
+    body{
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width:700px) {
+  body{
+    background-color: red;
+}
+}
+
+@media only screen and (min-width: 701px) and (max-width:1000px) {
+  body{
+    background-color: red;
+}
+}
+
+@media only screen and (min-width: 1001px) {
+  body{
+    background-color: red;
+}
+  }
+  </style>
+</head>
+<body>
+  <div class="image-row">
+
+</div>
+    <div id=""></div><img src="formlogo.png" alt="Image 1"></div>
+    <div><img src="formlogo.png" alt="Image 2"></div>
+    <div><img src="formlogo.png" alt="Image 3"></div>
+    <div><img src="formlogo.png" alt="Image 4"></div>
+  </div>
+</body>
+</html>
