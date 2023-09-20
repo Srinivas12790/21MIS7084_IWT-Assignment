@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider | by Asish</title>
+    <link rel="stylesheet" href="asish.css">
+</head>
+
+<body>
+
+    <div class="container">
+     
+       
+                <div class="image_container">
+
+                    <div id="one" class="image" data-iamge-type="Flower">
+                        <img src="Images/1.jpg">
+                    </div>
+
+                    <div id="two" class="image" data-iamge-type="Mountain"><img src="Images/2.jpg"></div>
+
+                    <div id="three"class="image" data-iamge-type="Fish"><img src="Images/3.jpg"></div>
+
+                    <div id="four" class="image" data-iamge-type="Dragon-fly"><img src="Images/4.jpg"></div>
+
+                    <div id="five" class="image" data-iamge-type="Lion"><img src="Images/5.jpg"></div>
+
+
+                </div>
+
+       
+        
+    </div>
+
+<script src="asish.js"> </script>
+<div id="span">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot"data-iamge-type="Mountain" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+  
+
+</body>
+
+</html>
